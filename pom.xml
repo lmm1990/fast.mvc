@@ -5,9 +5,6 @@
   <groupId>fast.mvc</groupId>
   <artifactId>fast.mvc</artifactId>
   <version>1.0</version>
-  <modules>
-    <module>fast.mvc.test</module>
-  </modules>
   <packaging>pom</packaging>
 
   <name>fast.mvc</name>
