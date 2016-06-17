@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fast.mvc.test:war">
+    <output-path>$PROJECT_DIR$/fast.mvc.test/target</output-path>
+    <root id="archive" name="fast.mvc.test.war">
+      <element id="artifact" artifact-name="fast.mvc.test:war exploded" />
+    </root>
+  </artifact>
+</component>
