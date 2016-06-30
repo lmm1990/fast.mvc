@@ -20,9 +20,12 @@ public class ApplicationContext {
     private static boolean isInited = false;
 
     /**
-     * mvc初始化<br />
-     * author:刘明明<br />
+     * mvc初始化<br>
+     * author:刘明明<br>
      * updateTime:2016年6月17日16:04:13
+     *
+     * @param controllerBasePackageName 控制器所在的包名
+     *
      * */
     public static void init(String controllerBasePackageName){
         if(isInited){
@@ -51,9 +54,12 @@ public class ApplicationContext {
     }
 
     /**
-     * 反射方法<br />
-     * author:刘明明<br />
+     * 反射方法<br>
+     * author:刘明明<br>
      * updateTime:2016年6月17日11:35:18
+     *
+     * @param baseUrl 路径
+     * @param classItem controller类
      * */
     private static void reflectMethod(Class<?> classItem,String baseUrl){
         if(baseUrl == null || baseUrl.equals("/")){

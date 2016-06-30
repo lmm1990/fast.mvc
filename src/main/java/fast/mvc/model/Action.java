@@ -26,6 +26,8 @@ public class Action {
 
     /**
      * 获得method列表
+     * @return request允许的广告列表
+     *
      * */
     public HashSet<RequestMethod> getMethodList() {
         return methodList;
@@ -33,6 +35,7 @@ public class Action {
 
     /**
      * 设置method列表
+     * @param methodList request允许的广告列表
      * */
     public void setMethodList(HashSet<RequestMethod> methodList) {
         this.methodList = methodList;
@@ -40,6 +43,7 @@ public class Action {
 
     /**
      * 获得action方法
+     * @return action方法
      * */
     public Method getAction() {
         return action;
@@ -47,15 +51,25 @@ public class Action {
 
     /**
      * 设置action方法
+     * @param action action方法
+     *
      * */
     public void setAction(Method action) {
         this.action = action;
     }
 
+    /**
+     * 获得设置controller
+     * @return controller类
+     * */
     public Object getController() {
         return controller;
     }
 
+    /**
+     * 设置controller
+     * @param controller 控制器
+     * */
     public void setController(Object controller) {
         this.controller = controller;
     }

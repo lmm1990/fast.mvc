@@ -2,6 +2,17 @@
 
 速度快、轻量级的java mvc框架
 
+## Maven 安装
+
+```
+<dependency>
+    <groupId>com.github.lmm1990.fast.mvc</groupId>
+    <artifactId>fast.mvc</artifactId>
+    <version>1.0</version>
+</dependency>
+
+```
+
 ##      	目录
 
 *	[特性](#特性)
