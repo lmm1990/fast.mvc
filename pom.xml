@@ -4,7 +4,7 @@
 
   <groupId>com.github.lmm1990.fast.mvc</groupId>
   <artifactId>fast.mvc</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>fast.mvc</name>
   <description>速度快、轻量级的java mvc框架</description>
   <url>https://github.com/lmm1990/fast.mvc</url>

@@ -2,6 +2,7 @@ package fast.mvc.model;
 
 import fast.mvc.model.enumModel.RequestMethod;
 
+import java.lang.invoke.MethodHandle;
 import java.lang.reflect.Method;
 import java.util.HashSet;
 
@@ -17,7 +18,7 @@ public class Action {
     /**
      * action方法
      * */
-    private Method action;
+    private MethodHandle action;
 
     /**
      * controller
@@ -45,7 +46,7 @@ public class Action {
      * 获得action方法
      * @return action方法
      * */
-    public Method getAction() {
+    public MethodHandle getAction() {
         return action;
     }
 
@@ -54,7 +55,7 @@ public class Action {
      * @param action action方法
      *
      * */
-    public void setAction(Method action) {
+    public void setAction(MethodHandle action) {
         this.action = action;
     }
 

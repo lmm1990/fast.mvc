@@ -9,9 +9,4 @@ public class AppConfig {
      * 404页面地址
      * */
     public static String notFoundPageUrl = "";
-
-    /**
-     * 405页面地址
-     * */
-    public static String methodNotAllowedPageUrl = "";
 }

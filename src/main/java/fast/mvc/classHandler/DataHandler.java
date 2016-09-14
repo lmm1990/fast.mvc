@@ -1,7 +1,6 @@
 package fast.mvc.classHandler;
 
-import fast.mvc.model.Action;
-
+import java.lang.invoke.MethodHandle;
 import java.util.HashMap;
 
 /**
@@ -12,5 +11,10 @@ public class DataHandler {
     /**
      * action列表
      * */
-    public static HashMap<String,Action> actionList = new HashMap<>();
+    public static HashMap<String,MethodHandle> actionList = new HashMap<>();
+
+    /**
+     * 静态文件目录列表
+     * */
+    public static String[] staticFilePathList = null;
 }
