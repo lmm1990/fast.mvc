@@ -9,7 +9,12 @@
   <description>速度快、轻量级的java mvc框架</description>
   <url>https://github.com/lmm1990/fast.mvc</url>
   <!--<packaging>pom</packaging>-->
-
+  <distributionManagement>
+    <repository>
+      <id>oss</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
   <issueManagement>
     <system>Github Issue</system>
     <url>https://github.com/lmm1990/fast.mvc/issues</url>
